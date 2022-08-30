@@ -1,6 +1,8 @@
 console.log('JS OK')
+console.log('JS OK')
+console.log('JS OK')
 
-const list = ['pane', 'latte', 'uova', 'burro', 'carne', 'pesce', 'olio', 'sale'];
+const list = ['pane', 'latte', 'uova', 'burro', 'carne', 'pesce', 'olio', 'sale','odori'];
 let i = 0;
 const expense =document.querySelector('.expense')
 
@@ -10,4 +12,5 @@ while(i < list.length){
     i++
    
 }
+
 
