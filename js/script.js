@@ -6,7 +6,8 @@ const expense =document.querySelector('.expense')
 
 while(i < list.length){
     console.log(list[i])
+    expense.innerHTML += ` <div class="fs-4 py-3"> ${list[i]} </div> `;
     i++
-    expense.innerHTML = list
+   
 }
 
